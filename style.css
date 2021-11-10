@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background: url("images/pattern-background-desktop.svg") no-repeat center
+    center/contain;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500, 700, 900;
+  font-size: 16px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 62px;
+  margin-left: 39%;
+  height: 650px;
+  width: 400px;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 1fr);
+  justify-items: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.img {
+  width: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.grid-image {
+  height: 200px;
+}
+
+.center {
+  text-align: center;
+}
+
+h2 {
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-weight: 900;
+}
+h4 {
+  word-spacing: 2px;
+  width: 350px;
+  font-size: 15;
+  font-stretch: wider;
+  font-weight: normal;
+  color: rgb(85, 80, 80);
+}
+
+.grid {
+  place-items: center;
+}
+
+.btn1 {
+  border: 2px solid hsl(245, 75%, 52%);
+  display: block;
+  background-color: hsl(245, 75%, 52%);
+  width: 340px;
+  height: 55px;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  box-shadow: 0px 9px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn2 {
+  border: none;
+  margin-left: 120px;
+  margin-top: 34px;
+  font-size: 15px;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: white;
+  font-weight: bold;
+  color: rgb(85, 80, 80);
+}
+
+.plan {
+  background-color: rgb(244, 249, 250);
+  height: 100px;
+  width: 340px;
+  border-radius: 10px;
+  display: flex;
+  place-items: center;
+}
+
+.imgmusic {
+  margin-top: 0px;
+  margin-left: 15px;
+}
+.planprice {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#annual {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+#year {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(85, 80, 80);
+  margin-left: 15px;
+  margin-top: -20px;
+}
+
+.btn-change {
+  margin-left: 194px;
+  margin-bottom: 10px;
+  border: none;
+  text-decoration: underline;
+  font-size: 15px;
+  background-color: rgb(244, 249, 250);
+  color: hsl(245, 75%, 52%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* .wavyimg {
+  z-index: -1;
+} */
