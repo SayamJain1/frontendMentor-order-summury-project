@@ -6,8 +6,6 @@
 
 body {
   background-color: hsl(225, 100%, 94%);
-  /* background: url("images/pattern-background-desktop.svg") no-repeat center
-    center/contain; */
   height: 50%;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500, 700, 900;
